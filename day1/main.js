@@ -40,13 +40,10 @@ function update() {
 
   if (currentActive === 1) {
     prev.setAttribute("disabled", true);
-  } else {
-    prev.removeAttribute("disabled");
-  }
-
-  if (currentActive === 4) {
+  } else if (currentActive === circles.length) {
     next.setAttribute("disabled", true);
   } else {
     next.removeAttribute("disabled");
+    prev.removeAttribute("disabled");
   }
 }

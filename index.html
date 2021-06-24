@@ -7,6 +7,57 @@
     <title>
       50 Days of HTML, CSS and JavaScript - Daily projects by Manoj Tyagi
     </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="child.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Top Navigation -->
+    <div class="navigation">
+      <a href="/" class="brand-title">Daily <span>Projects</span></a>
+
+      <a
+        class="github"
+        href="https://github.com/thewolfcommander/Daily-Projects-JS"
+        target="_blank"
+      >
+        <img src="./githubLogo.png" alt="GitHub" />
+      </a>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- These will be the daily cards -->
+      <div class="cards">
+        <!-- Card 1 - day 0 -->
+        <div class="card" id="day0">
+          <span class="card__label">Day 0</span>
+          <div class="card__footer">
+            <h2 class="card__title">Beautiful image slider</h2>
+            <a class="card__btn" target="_blank" href="./day0/">View</a>
+          </div>
+        </div>
+
+        <!-- Card 2 - Day 1 -->
+        <div class="card" id="day1">
+          <span class="card__label">Day 1</span>
+          <div class="card__footer">
+            <h2 class="card__title">Progress Step</h2>
+            <a class="card__btn" target="_blank" href="./day1/">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <p class="footer-text">
+        By
+        <a href="https://iammanojtyagi.vercel.app" class="footer-link"
+          >Manoj Tyagi</a
+        >
+        | You are at <a href="/" class="footer-link">Home</a>
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
